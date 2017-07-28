@@ -98,8 +98,8 @@ static void PrintSupportedStandardSampleRates(
 }
 
 /*******************************************************************/
-int main(void);
-int main(void)
+//int main(int argc, const char * argv[]);
+int main(int argc, const char * argv[])
 {
     int     i, numDevices, defaultDisplayed;
     const   PaDeviceInfo *deviceInfo;
@@ -241,7 +241,11 @@ int main(void)
 
     Pa_Terminate();
 
-    printf("----------------------------------------------\n");
+    printf("- Press any key! -------------------------------------------\n");
+
+	getch();
+
+
     return 0;
 
 error:

@@ -1,1 +1,38 @@
-﻿
+﻿  stdafx.cpp
+  portaudio_win.cpp
+  pa_asio.cpp
+  asiolist.cpp
+d:\portaudio\asiosdk2.3\host\pc\asiolist.cpp(25): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+d:\portaudio\asiosdk2.3\host\pc\asiolist.cpp(32): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  asiodrivers.cpp
+  asio.cpp
+  Generating Code...
+  pa_x86_plain_converters.c
+  pa_win_wdmks_utils.c
+  pa_win_waveformat.c
+  pa_win_util.c
+  pa_win_hostapis.c
+  pa_win_coinitialize.c
+  pa_trace.c
+  pa_stream.c
+  pa_ringbuffer.c
+  pa_process.c
+  pa_front.c
+  pa_dither.c
+  pa_debugprint.c
+  pa_cpuload.c
+  pa_converters.c
+  pa_allocation.c
+  PortAudioStream.c
+  main.c
+d:\portaudio\buddybox-ppm\main.c(74): warning C4013: 'Sleep' undefined; assuming extern returning int
+  BuddyBoxThread.c
+  BuddyBox.c
+d:\portaudio\buddybox-ppm\buddybox.c(76): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+d:\portaudio\buddybox-ppm\buddybox.c(108): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+d:\portaudio\buddybox-ppm\buddybox.c(123): warning C4244: 'return': conversion from 'unsigned int' to 'float', possible loss of data
+d:\portaudio\buddybox-ppm\buddybox.c(295): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
+  Generating Code...
+d:\portaudio\buddybox-ppm\buddyboxthread.c(64): warning C4716: 'runBuddyBoxThread': must return a value
+  portaudio_win.vcxproj -> D:\portaudio\portaudio_win\x64\Debug\portaudio_win.exe
+  portaudio_win.vcxproj -> D:\portaudio\portaudio_win\x64\Debug\portaudio_win.pdb (Partial PDB)

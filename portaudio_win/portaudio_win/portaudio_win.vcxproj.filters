@@ -30,6 +30,15 @@
     <ClInclude Include="..\..\portaudio\include\portaudio.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\BuddyBox-PPM\BuddyBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BuddyBox-PPM\BuddyBoxThread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\BuddyBox-PPM\PortAudioStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -96,6 +105,21 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\portaudio\src\os\win\pa_x86_plain_converters.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BuddyBox-PPM\BuddyBox.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BuddyBox-PPM\BuddyBoxThread.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BuddyBox-PPM\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\BuddyBox-PPM\PortAudioStream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\portaudio\examples\pa_devs.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

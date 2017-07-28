@@ -1,7 +1,16 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "portaudio", "portaudio.vcproj", "{0A18A071-125E-442F-AFF7-A3F68ABECF99}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "portaudio", "portaudio.vcxproj", "{0A18A071-125E-442F-AFF7-A3F68ABECF99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D92BC0D0-B12A-4E0A-B9B1-C725CC7E2CE3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BuddyBox-PPM", "..\..\..\BuddyBox-PPM\BuddyBox-PPM\BuddyBox-PPM.vcxproj", "{1665120C-30A1-47BB-9F39-C567DD7B9491}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0A18A071-125E-442F-AFF7-A3F68ABECF99} = {0A18A071-125E-442F-AFF7-A3F68ABECF99}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,14 +26,26 @@ Global
 		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.Debug|Win32.Build.0 = Debug|Win32
 		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.Debug|x64.ActiveCfg = Debug|x64
 		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.Debug|x64.Build.0 = Debug|x64
-		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.Release|Win32.ActiveCfg = Release|Win32
-		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.Release|Win32.Build.0 = Release|Win32
-		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.Release|x64.ActiveCfg = Release|x64
-		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.Release|x64.Build.0 = Release|x64
+		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.Release|Win32.ActiveCfg = ReleaseMinDependency|Win32
+		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.Release|Win32.Build.0 = ReleaseMinDependency|Win32
+		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.Release|x64.ActiveCfg = ReleaseMinDependency|x64
+		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.Release|x64.Build.0 = ReleaseMinDependency|x64
 		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.ReleaseMinDependency|Win32.ActiveCfg = ReleaseMinDependency|Win32
 		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.ReleaseMinDependency|Win32.Build.0 = ReleaseMinDependency|Win32
 		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.ReleaseMinDependency|x64.ActiveCfg = ReleaseMinDependency|x64
 		{0A18A071-125E-442F-AFF7-A3F68ABECF99}.ReleaseMinDependency|x64.Build.0 = ReleaseMinDependency|x64
+		{1665120C-30A1-47BB-9F39-C567DD7B9491}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1665120C-30A1-47BB-9F39-C567DD7B9491}.Debug|Win32.Build.0 = Debug|Win32
+		{1665120C-30A1-47BB-9F39-C567DD7B9491}.Debug|x64.ActiveCfg = Debug|x64
+		{1665120C-30A1-47BB-9F39-C567DD7B9491}.Debug|x64.Build.0 = Debug|x64
+		{1665120C-30A1-47BB-9F39-C567DD7B9491}.Release|Win32.ActiveCfg = Release|Win32
+		{1665120C-30A1-47BB-9F39-C567DD7B9491}.Release|Win32.Build.0 = Release|Win32
+		{1665120C-30A1-47BB-9F39-C567DD7B9491}.Release|x64.ActiveCfg = Release|x64
+		{1665120C-30A1-47BB-9F39-C567DD7B9491}.Release|x64.Build.0 = Release|x64
+		{1665120C-30A1-47BB-9F39-C567DD7B9491}.ReleaseMinDependency|Win32.ActiveCfg = Release|Win32
+		{1665120C-30A1-47BB-9F39-C567DD7B9491}.ReleaseMinDependency|Win32.Build.0 = Release|Win32
+		{1665120C-30A1-47BB-9F39-C567DD7B9491}.ReleaseMinDependency|x64.ActiveCfg = Release|x64
+		{1665120C-30A1-47BB-9F39-C567DD7B9491}.ReleaseMinDependency|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

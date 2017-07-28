@@ -7,6 +7,10 @@ d:\portaudio\portaudio_win\portaudio_win\x64\debug\asiodrivers.obj
 d:\portaudio\portaudio_win\portaudio_win\x64\debug\asiolist.obj
 d:\portaudio\portaudio_win\portaudio_win\x64\debug\pa_asio.obj
 d:\portaudio\portaudio_win\portaudio_win\x64\debug\portaudio_win.obj
+d:\portaudio\portaudio_win\portaudio_win\x64\debug\buddybox.obj
+d:\portaudio\portaudio_win\portaudio_win\x64\debug\buddyboxthread.obj
+d:\portaudio\portaudio_win\portaudio_win\x64\debug\main.obj
+d:\portaudio\portaudio_win\portaudio_win\x64\debug\portaudiostream.obj
 d:\portaudio\portaudio_win\portaudio_win\x64\debug\pa_allocation.obj
 d:\portaudio\portaudio_win\portaudio_win\x64\debug\pa_converters.obj
 d:\portaudio\portaudio_win\portaudio_win\x64\debug\pa_cpuload.obj

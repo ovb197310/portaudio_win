@@ -393,8 +393,8 @@ static float GenerateFloatRandom(float minValue, float maxValue)
 }
 
 /*******************************************************************/
-int main(void);
-int main(void)
+int main_ovb(void);
+int main_ovb(void)
 {
 	PaStream*           stream;
 	PaError             err;
