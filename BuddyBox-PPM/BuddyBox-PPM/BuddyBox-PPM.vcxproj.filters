@@ -50,5 +50,8 @@
     <ClCompile Include="PortAudioStream.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\portaudio\examples\pa_devs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

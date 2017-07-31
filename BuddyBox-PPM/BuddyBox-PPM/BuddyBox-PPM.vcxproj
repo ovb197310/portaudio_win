@@ -161,6 +161,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\portaudio\examples\pa_devs.c" />
     <ClCompile Include="BuddyBox.c" />
     <ClCompile Include="BuddyBoxThread.c" />
     <ClCompile Include="main.c" />

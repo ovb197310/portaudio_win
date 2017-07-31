@@ -1,16 +1,1 @@
-﻿  stdafx.cpp
-  BuddyBox.c
-BuddyBox.c(76): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-BuddyBox.c(108): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-BuddyBox.c(123): warning C4244: 'return': conversion from 'unsigned int' to 'float', possible loss of data
-BuddyBox.c(295): warning C4244: '=': conversion from 'float' to 'unsigned int', possible loss of data
-  BuddyBoxThread.c
-  main.c
-main.c(78): warning C4013: 'Sleep' undefined; assuming extern returning int
-  PortAudioStream.c
-LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
-  Generating code
-d:\portaudio\buddybox-ppm\buddybox-ppm\buddyboxthread.c(64): warning C4716: 'runBuddyBoxThread': must return a value
-  All 80 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  BuddyBox-PPM.vcxproj -> D:\portaudio\portaudio\build\msvc\x64\Release\BuddyBox-PPM.exe
+﻿

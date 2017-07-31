@@ -99,7 +99,7 @@ static void PrintSupportedStandardSampleRates(
 
 /*******************************************************************/
 //int main(int argc, const char * argv[]);
-int main(int argc, const char * argv[])
+int main___(int argc, const char * argv[])
 {
     int     i, numDevices, defaultDisplayed;
     const   PaDeviceInfo *deviceInfo;
